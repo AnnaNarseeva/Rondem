@@ -1,0 +1,204 @@
+[1597846908,817][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 18409
+[1597846908,817][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597846908,942][INFO]: [21b97ec0c11f614412f221034dbd01ac] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597846908733_623103_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597846908733_623103_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597846908,942][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597846908733_623103_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597846908,942][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597846908,942][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.DX7V4N data:,
+[1597846909,438][INFO]: resolved localhost to ["127.0.0.1"]
+[1597846909,454][INFO]: resolved localhost to ["127.0.0.1"]
+[1597846909,463][INFO]: [21b97ec0c11f614412f221034dbd01ac] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/tmp/.com.google.Chrome.DX7V4N"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:37057"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "21b97ec0c11f614412f221034dbd01ac"
+}
+[1597846909,499][INFO]: [21b97ec0c11f614412f221034dbd01ac] COMMAND SetWindowRect {
+   "height": 1080,
+   "width": 1920
+}
+[1597846909,499][INFO]: Waiting for pending navigations...
+[1597846909,501][INFO]: Done waiting for pending navigations. Status: ok
+[1597846909,603][INFO]: Waiting for pending navigations...
+[1597846909,603][INFO]: Done waiting for pending navigations. Status: ok
+[1597846909,603][INFO]: [21b97ec0c11f614412f221034dbd01ac] RESPONSE SetWindowRect {
+   "height": 1010,
+   "width": 1912,
+   "x": 4,
+   "y": 66
+}
+[1597846909,610][INFO]: [21b97ec0c11f614412f221034dbd01ac] COMMAND Navigate {
+   "url": "https://www.vtb.ru/personal/platezhi-i-perevody/obmen-valjuty/"
+}
+[1597846909,610][INFO]: Waiting for pending navigations...
+[1597846909,611][INFO]: Done waiting for pending navigations. Status: ok
+[1597846910,231][INFO]: Waiting for pending navigations...
+[1597846916,215][INFO]: Done waiting for pending navigations. Status: ok
+[1597846916,215][INFO]: [21b97ec0c11f614412f221034dbd01ac] RESPONSE Navigate
+[1597846916,266][INFO]: [21b97ec0c11f614412f221034dbd01ac] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".currency-exchange__info-ex.ng-binding.ng-scope"
+}
+[1597846916,266][INFO]: Waiting for pending navigations...
+[1597846916,267][INFO]: Done waiting for pending navigations. Status: ok
+[1597846916,274][INFO]: Waiting for pending navigations...
+[1597846916,275][INFO]: Done waiting for pending navigations. Status: ok
+[1597846916,275][INFO]: [21b97ec0c11f614412f221034dbd01ac] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "1f5d4aac-722b-4e7e-8094-8731b41c2d47"
+}
+[1597846916,278][INFO]: [21b97ec0c11f614412f221034dbd01ac] COMMAND GetElementTagName {
+   "id": "1f5d4aac-722b-4e7e-8094-8731b41c2d47"
+}
+[1597846916,278][INFO]: Waiting for pending navigations...
+[1597846916,279][INFO]: Done waiting for pending navigations. Status: ok
+[1597846916,281][INFO]: Waiting for pending navigations...
+[1597846916,282][INFO]: Done waiting for pending navigations. Status: ok
+[1597846916,282][INFO]: [21b97ec0c11f614412f221034dbd01ac] RESPONSE GetElementTagName "div"
+[1597846916,284][INFO]: [21b97ec0c11f614412f221034dbd01ac] COMMAND GetElementText {
+   "id": "1f5d4aac-722b-4e7e-8094-8731b41c2d47"
+}
+[1597846916,284][INFO]: Waiting for pending navigations...
+[1597846916,285][INFO]: Done waiting for pending navigations. Status: ok
+[1597846916,293][INFO]: Waiting for pending navigations...
+[1597846916,294][INFO]: Done waiting for pending navigations. Status: ok
+[1597846916,294][INFO]: [21b97ec0c11f614412f221034dbd01ac] RESPONSE GetElementText "75,05  ₽ = 1,00  $"
+[1597846916,305][INFO]: [21b97ec0c11f614412f221034dbd01ac] COMMAND DeleteAllCookies {
+
+}
+[1597846916,305][INFO]: Waiting for pending navigations...
+[1597846916,306][INFO]: Done waiting for pending navigations. Status: ok
+[1597846916,418][INFO]: Waiting for pending navigations...
+[1597846916,430][INFO]: Done waiting for pending navigations. Status: ok
+[1597846916,430][INFO]: [21b97ec0c11f614412f221034dbd01ac] RESPONSE DeleteAllCookies
+[1597846916,435][INFO]: [21b97ec0c11f614412f221034dbd01ac] COMMAND Quit {
+
+}
+[1597846916,485][INFO]: [21b97ec0c11f614412f221034dbd01ac] RESPONSE Quit

@@ -1,0 +1,252 @@
+[1597789552,819][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 14049
+[1597789552,819][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597789553,026][INFO]: [5042bbc8375895ee7c25413224fc0f66] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597789552433_511963_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597789552433_511963_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597789553,026][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597789552433_511963_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597789553,027][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597789553,027][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.vKfq9m data:,
+[1597789553,544][INFO]: resolved localhost to ["127.0.0.1"]
+[1597789553,556][INFO]: resolved localhost to ["127.0.0.1"]
+[1597789553,574][INFO]: [5042bbc8375895ee7c25413224fc0f66] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/tmp/.com.google.Chrome.vKfq9m"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:46301"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "5042bbc8375895ee7c25413224fc0f66"
+}
+[1597789553,617][INFO]: [5042bbc8375895ee7c25413224fc0f66] COMMAND SetWindowRect {
+   "height": 1080,
+   "width": 1920
+}
+[1597789553,617][INFO]: Waiting for pending navigations...
+[1597789553,618][INFO]: Done waiting for pending navigations. Status: ok
+[1597789553,720][INFO]: Waiting for pending navigations...
+[1597789553,720][INFO]: Done waiting for pending navigations. Status: ok
+[1597789553,720][INFO]: [5042bbc8375895ee7c25413224fc0f66] RESPONSE SetWindowRect {
+   "height": 1010,
+   "width": 1912,
+   "x": 4,
+   "y": 66
+}
+[1597789553,732][INFO]: [5042bbc8375895ee7c25413224fc0f66] COMMAND Navigate {
+   "url": "https://www.open.ru/"
+}
+[1597789553,732][INFO]: Waiting for pending navigations...
+[1597789553,733][INFO]: Done waiting for pending navigations. Status: ok
+[1597789554,931][INFO]: Waiting for pending navigations...
+[1597789558,060][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,060][INFO]: [5042bbc8375895ee7c25413224fc0f66] RESPONSE Navigate
+[1597789558,098][INFO]: [5042bbc8375895ee7c25413224fc0f66] COMMAND FindElement {
+   "using": "xpath",
+   "value": "(//*[contains(@class,'main-page-exchange__row')][contains(.,'USD')]//*[@class='main-page-exchange__rate'])[2]"
+}
+[1597789558,099][INFO]: Waiting for pending navigations...
+[1597789558,128][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,142][INFO]: Waiting for pending navigations...
+[1597789558,144][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,144][INFO]: [5042bbc8375895ee7c25413224fc0f66] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b3b8c6d5-aa12-41c6-96b3-deea1678f54e"
+}
+[1597789558,147][INFO]: [5042bbc8375895ee7c25413224fc0f66] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "b3b8c6d5-aa12-41c6-96b3-deea1678f54e",
+      "element-6066-11e4-a52e-4f735466cecf": "b3b8c6d5-aa12-41c6-96b3-deea1678f54e"
+   } ],
+   "script": "arguments[0].scrollIntoView(true)"
+}
+[1597789558,147][INFO]: Waiting for pending navigations...
+[1597789558,148][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,150][INFO]: Waiting for pending navigations...
+[1597789558,150][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,150][INFO]: [5042bbc8375895ee7c25413224fc0f66] RESPONSE ExecuteScript null
+[1597789558,153][INFO]: [5042bbc8375895ee7c25413224fc0f66] COMMAND FindElement {
+   "using": "xpath",
+   "value": "(//*[contains(@class,'main-page-exchange__row')][contains(.,'USD')]//*[@class='main-page-exchange__rate'])[2]"
+}
+[1597789558,153][INFO]: Waiting for pending navigations...
+[1597789558,154][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,159][INFO]: Waiting for pending navigations...
+[1597789558,184][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,184][INFO]: [5042bbc8375895ee7c25413224fc0f66] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b3b8c6d5-aa12-41c6-96b3-deea1678f54e"
+}
+[1597789558,213][INFO]: [5042bbc8375895ee7c25413224fc0f66] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "b3b8c6d5-aa12-41c6-96b3-deea1678f54e"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597789558,213][INFO]: Waiting for pending navigations...
+[1597789558,217][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,230][INFO]: Waiting for pending navigations...
+[1597789558,233][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,233][INFO]: [5042bbc8375895ee7c25413224fc0f66] RESPONSE ExecuteScript true
+[1597789558,237][INFO]: [5042bbc8375895ee7c25413224fc0f66] COMMAND FindElement {
+   "using": "xpath",
+   "value": "(//*[contains(@class,'main-page-exchange__row')][contains(.,'USD')]//*[@class='main-page-exchange__rate'])[2]"
+}
+[1597789558,237][INFO]: Waiting for pending navigations...
+[1597789558,239][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,245][INFO]: Waiting for pending navigations...
+[1597789558,246][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,246][INFO]: [5042bbc8375895ee7c25413224fc0f66] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b3b8c6d5-aa12-41c6-96b3-deea1678f54e"
+}
+[1597789558,248][INFO]: [5042bbc8375895ee7c25413224fc0f66] COMMAND GetElementTagName {
+   "id": "b3b8c6d5-aa12-41c6-96b3-deea1678f54e"
+}
+[1597789558,248][INFO]: Waiting for pending navigations...
+[1597789558,249][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,251][INFO]: Waiting for pending navigations...
+[1597789558,252][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,252][INFO]: [5042bbc8375895ee7c25413224fc0f66] RESPONSE GetElementTagName "span"
+[1597789558,254][INFO]: [5042bbc8375895ee7c25413224fc0f66] COMMAND GetElementText {
+   "id": "b3b8c6d5-aa12-41c6-96b3-deea1678f54e"
+}
+[1597789558,254][INFO]: Waiting for pending navigations...
+[1597789558,254][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,265][INFO]: Waiting for pending navigations...
+[1597789558,265][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,266][INFO]: [5042bbc8375895ee7c25413224fc0f66] RESPONSE GetElementText "74,70"
+[1597789558,269][INFO]: [5042bbc8375895ee7c25413224fc0f66] COMMAND FindElement {
+   "using": "xpath",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(4) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789558,269][INFO]: Waiting for pending navigations...
+[1597789558,276][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,294][INFO]: Waiting for pending navigations...
+[1597789558,295][INFO]: Done waiting for pending navigations. Status: ok
+[1597789558,295][INFO]: [5042bbc8375895ee7c25413224fc0f66] RESPONSE FindElement ERROR invalid selector: Unable to locate an element with the xpath expression tr:nth-of-type(2) > td:nth-of-type(4) > .main-page-exchange__indicator.main-page-exchange__indicator--up because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'tr:nth-of-type(2) > td:nth-of-type(4) > .main-page-exchange__indicator.main-page-exchange__indicator--up' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.125)
+[1597789558,315][INFO]: [5042bbc8375895ee7c25413224fc0f66] COMMAND Quit {
+
+}
+[1597789558,365][INFO]: [5042bbc8375895ee7c25413224fc0f66] RESPONSE Quit

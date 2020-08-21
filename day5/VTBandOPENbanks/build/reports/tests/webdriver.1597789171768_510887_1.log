@@ -1,0 +1,663 @@
+[1597789171,834][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 31976
+[1597789171,834][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597789172,041][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597789171428_510887_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597789171428_510887_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597789172,042][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597789171428_510887_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597789172,042][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597789172,042][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.N33cy2 data:,
+[1597789172,564][INFO]: resolved localhost to ["127.0.0.1"]
+[1597789172,592][INFO]: resolved localhost to ["127.0.0.1"]
+[1597789172,599][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/tmp/.com.google.Chrome.N33cy2"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:42167"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "903f3405036924a1dd8199e5133f3ca9"
+}
+[1597789172,639][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND SetWindowRect {
+   "height": 1080,
+   "width": 1920
+}
+[1597789172,639][INFO]: Waiting for pending navigations...
+[1597789172,641][INFO]: Done waiting for pending navigations. Status: ok
+[1597789172,743][INFO]: Waiting for pending navigations...
+[1597789172,743][INFO]: Done waiting for pending navigations. Status: ok
+[1597789172,743][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE SetWindowRect {
+   "height": 1010,
+   "width": 1912,
+   "x": 4,
+   "y": 66
+}
+[1597789172,750][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND Navigate {
+   "url": "https://www.open.ru/"
+}
+[1597789172,750][INFO]: Waiting for pending navigations...
+[1597789172,751][INFO]: Done waiting for pending navigations. Status: ok
+[1597789173,868][INFO]: Waiting for pending navigations...
+[1597789177,064][INFO]: Done waiting for pending navigations. Status: ok
+[1597789177,064][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE Navigate
+[1597789177,106][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789177,106][INFO]: Waiting for pending navigations...
+[1597789177,132][INFO]: Done waiting for pending navigations. Status: ok
+[1597789177,155][INFO]: Waiting for pending navigations...
+[1597789177,157][INFO]: Done waiting for pending navigations. Status: ok
+[1597789177,157][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789177,366][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789177,366][INFO]: Waiting for pending navigations...
+[1597789177,374][INFO]: Done waiting for pending navigations. Status: ok
+[1597789177,423][INFO]: Waiting for pending navigations...
+[1597789177,425][INFO]: Done waiting for pending navigations. Status: ok
+[1597789177,425][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789177,630][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789177,633][INFO]: Waiting for pending navigations...
+[1597789177,634][INFO]: Done waiting for pending navigations. Status: ok
+[1597789177,639][INFO]: Waiting for pending navigations...
+[1597789177,639][INFO]: Done waiting for pending navigations. Status: ok
+[1597789177,639][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789177,846][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789177,847][INFO]: Waiting for pending navigations...
+[1597789177,862][INFO]: Done waiting for pending navigations. Status: ok
+[1597789177,873][INFO]: Waiting for pending navigations...
+[1597789177,873][INFO]: Done waiting for pending navigations. Status: ok
+[1597789177,873][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789178,080][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789178,081][INFO]: Waiting for pending navigations...
+[1597789178,086][INFO]: Done waiting for pending navigations. Status: ok
+[1597789178,098][INFO]: Waiting for pending navigations...
+[1597789178,098][INFO]: Done waiting for pending navigations. Status: ok
+[1597789178,098][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789178,305][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789178,305][INFO]: Waiting for pending navigations...
+[1597789178,306][INFO]: Done waiting for pending navigations. Status: ok
+[1597789178,315][INFO]: Waiting for pending navigations...
+[1597789178,316][INFO]: Done waiting for pending navigations. Status: ok
+[1597789178,316][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789178,521][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789178,521][INFO]: Waiting for pending navigations...
+[1597789178,521][INFO]: Done waiting for pending navigations. Status: ok
+[1597789178,526][INFO]: Waiting for pending navigations...
+[1597789178,526][INFO]: Done waiting for pending navigations. Status: ok
+[1597789178,526][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789178,733][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789178,733][INFO]: Waiting for pending navigations...
+[1597789178,734][INFO]: Done waiting for pending navigations. Status: ok
+[1597789178,761][INFO]: Waiting for pending navigations...
+[1597789178,788][INFO]: Done waiting for pending navigations. Status: ok
+[1597789178,788][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789178,992][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789178,993][INFO]: Waiting for pending navigations...
+[1597789178,994][INFO]: Done waiting for pending navigations. Status: ok
+[1597789178,997][INFO]: Waiting for pending navigations...
+[1597789178,997][INFO]: Done waiting for pending navigations. Status: ok
+[1597789178,997][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789179,202][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789179,202][INFO]: Waiting for pending navigations...
+[1597789179,202][INFO]: Done waiting for pending navigations. Status: ok
+[1597789179,207][INFO]: Waiting for pending navigations...
+[1597789179,207][INFO]: Done waiting for pending navigations. Status: ok
+[1597789179,207][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789179,413][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789179,413][INFO]: Waiting for pending navigations...
+[1597789179,414][INFO]: Done waiting for pending navigations. Status: ok
+[1597789179,426][INFO]: Waiting for pending navigations...
+[1597789179,427][INFO]: Done waiting for pending navigations. Status: ok
+[1597789179,427][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789179,632][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789179,632][INFO]: Waiting for pending navigations...
+[1597789179,632][INFO]: Done waiting for pending navigations. Status: ok
+[1597789179,638][INFO]: Waiting for pending navigations...
+[1597789179,639][INFO]: Done waiting for pending navigations. Status: ok
+[1597789179,639][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789179,844][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789179,844][INFO]: Waiting for pending navigations...
+[1597789179,844][INFO]: Done waiting for pending navigations. Status: ok
+[1597789179,848][INFO]: Waiting for pending navigations...
+[1597789179,849][INFO]: Done waiting for pending navigations. Status: ok
+[1597789179,849][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789180,054][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789180,054][INFO]: Waiting for pending navigations...
+[1597789180,056][INFO]: Done waiting for pending navigations. Status: ok
+[1597789180,063][INFO]: Waiting for pending navigations...
+[1597789180,063][INFO]: Done waiting for pending navigations. Status: ok
+[1597789180,063][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789180,268][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789180,268][INFO]: Waiting for pending navigations...
+[1597789180,269][INFO]: Done waiting for pending navigations. Status: ok
+[1597789180,274][INFO]: Waiting for pending navigations...
+[1597789180,274][INFO]: Done waiting for pending navigations. Status: ok
+[1597789180,274][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789180,479][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789180,479][INFO]: Waiting for pending navigations...
+[1597789180,480][INFO]: Done waiting for pending navigations. Status: ok
+[1597789180,484][INFO]: Waiting for pending navigations...
+[1597789180,484][INFO]: Done waiting for pending navigations. Status: ok
+[1597789180,484][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789180,691][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789180,691][INFO]: Waiting for pending navigations...
+[1597789180,692][INFO]: Done waiting for pending navigations. Status: ok
+[1597789180,699][INFO]: Waiting for pending navigations...
+[1597789180,700][INFO]: Done waiting for pending navigations. Status: ok
+[1597789180,700][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789180,906][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789180,906][INFO]: Waiting for pending navigations...
+[1597789180,906][INFO]: Done waiting for pending navigations. Status: ok
+[1597789180,912][INFO]: Waiting for pending navigations...
+[1597789180,913][INFO]: Done waiting for pending navigations. Status: ok
+[1597789180,913][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789181,116][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789181,117][INFO]: Waiting for pending navigations...
+[1597789181,117][INFO]: Done waiting for pending navigations. Status: ok
+[1597789181,122][INFO]: Waiting for pending navigations...
+[1597789181,123][INFO]: Done waiting for pending navigations. Status: ok
+[1597789181,123][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789181,328][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789181,329][INFO]: Waiting for pending navigations...
+[1597789181,329][INFO]: Done waiting for pending navigations. Status: ok
+[1597789181,337][INFO]: Waiting for pending navigations...
+[1597789181,338][INFO]: Done waiting for pending navigations. Status: ok
+[1597789181,338][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789181,542][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789181,542][INFO]: Waiting for pending navigations...
+[1597789181,543][INFO]: Done waiting for pending navigations. Status: ok
+[1597789181,547][INFO]: Waiting for pending navigations...
+[1597789181,547][INFO]: Done waiting for pending navigations. Status: ok
+[1597789181,547][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789181,752][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789181,752][INFO]: Waiting for pending navigations...
+[1597789181,754][INFO]: Done waiting for pending navigations. Status: ok
+[1597789181,764][INFO]: Waiting for pending navigations...
+[1597789181,764][INFO]: Done waiting for pending navigations. Status: ok
+[1597789181,764][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789181,971][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789181,971][INFO]: Waiting for pending navigations...
+[1597789181,973][INFO]: Done waiting for pending navigations. Status: ok
+[1597789181,980][INFO]: Waiting for pending navigations...
+[1597789181,981][INFO]: Done waiting for pending navigations. Status: ok
+[1597789181,981][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789182,186][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789182,187][INFO]: Waiting for pending navigations...
+[1597789182,188][INFO]: Done waiting for pending navigations. Status: ok
+[1597789182,209][INFO]: Waiting for pending navigations...
+[1597789182,210][INFO]: Done waiting for pending navigations. Status: ok
+[1597789182,210][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789182,416][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789182,416][INFO]: Waiting for pending navigations...
+[1597789182,416][INFO]: Done waiting for pending navigations. Status: ok
+[1597789182,421][INFO]: Waiting for pending navigations...
+[1597789182,421][INFO]: Done waiting for pending navigations. Status: ok
+[1597789182,421][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789182,624][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789182,624][INFO]: Waiting for pending navigations...
+[1597789182,625][INFO]: Done waiting for pending navigations. Status: ok
+[1597789182,629][INFO]: Waiting for pending navigations...
+[1597789182,629][INFO]: Done waiting for pending navigations. Status: ok
+[1597789182,629][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789182,833][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789182,833][INFO]: Waiting for pending navigations...
+[1597789182,833][INFO]: Done waiting for pending navigations. Status: ok
+[1597789182,838][INFO]: Waiting for pending navigations...
+[1597789182,838][INFO]: Done waiting for pending navigations. Status: ok
+[1597789182,839][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789183,044][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789183,044][INFO]: Waiting for pending navigations...
+[1597789183,045][INFO]: Done waiting for pending navigations. Status: ok
+[1597789183,055][INFO]: Waiting for pending navigations...
+[1597789183,056][INFO]: Done waiting for pending navigations. Status: ok
+[1597789183,056][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789183,262][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789183,263][INFO]: Waiting for pending navigations...
+[1597789183,264][INFO]: Done waiting for pending navigations. Status: ok
+[1597789183,276][INFO]: Waiting for pending navigations...
+[1597789183,277][INFO]: Done waiting for pending navigations. Status: ok
+[1597789183,277][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789183,484][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789183,484][INFO]: Waiting for pending navigations...
+[1597789183,486][INFO]: Done waiting for pending navigations. Status: ok
+[1597789183,496][INFO]: Waiting for pending navigations...
+[1597789183,497][INFO]: Done waiting for pending navigations. Status: ok
+[1597789183,497][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789183,704][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789183,704][INFO]: Waiting for pending navigations...
+[1597789183,705][INFO]: Done waiting for pending navigations. Status: ok
+[1597789183,716][INFO]: Waiting for pending navigations...
+[1597789183,717][INFO]: Done waiting for pending navigations. Status: ok
+[1597789183,717][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789183,925][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789183,925][INFO]: Waiting for pending navigations...
+[1597789183,926][INFO]: Done waiting for pending navigations. Status: ok
+[1597789183,937][INFO]: Waiting for pending navigations...
+[1597789183,939][INFO]: Done waiting for pending navigations. Status: ok
+[1597789183,939][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789184,144][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789184,144][INFO]: Waiting for pending navigations...
+[1597789184,145][INFO]: Done waiting for pending navigations. Status: ok
+[1597789184,150][INFO]: Waiting for pending navigations...
+[1597789184,151][INFO]: Done waiting for pending navigations. Status: ok
+[1597789184,151][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789184,354][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789184,354][INFO]: Waiting for pending navigations...
+[1597789184,355][INFO]: Done waiting for pending navigations. Status: ok
+[1597789184,359][INFO]: Waiting for pending navigations...
+[1597789184,360][INFO]: Done waiting for pending navigations. Status: ok
+[1597789184,360][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789184,565][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789184,566][INFO]: Waiting for pending navigations...
+[1597789184,567][INFO]: Done waiting for pending navigations. Status: ok
+[1597789184,579][INFO]: Waiting for pending navigations...
+[1597789184,580][INFO]: Done waiting for pending navigations. Status: ok
+[1597789184,580][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789184,785][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789184,785][INFO]: Waiting for pending navigations...
+[1597789184,786][INFO]: Done waiting for pending navigations. Status: ok
+[1597789184,797][INFO]: Waiting for pending navigations...
+[1597789184,798][INFO]: Done waiting for pending navigations. Status: ok
+[1597789184,798][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789185,004][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789185,004][INFO]: Waiting for pending navigations...
+[1597789185,006][INFO]: Done waiting for pending navigations. Status: ok
+[1597789185,017][INFO]: Waiting for pending navigations...
+[1597789185,017][INFO]: Done waiting for pending navigations. Status: ok
+[1597789185,017][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789185,223][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789185,224][INFO]: Waiting for pending navigations...
+[1597789185,225][INFO]: Done waiting for pending navigations. Status: ok
+[1597789185,236][INFO]: Waiting for pending navigations...
+[1597789185,237][INFO]: Done waiting for pending navigations. Status: ok
+[1597789185,237][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789185,444][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789185,444][INFO]: Waiting for pending navigations...
+[1597789185,446][INFO]: Done waiting for pending navigations. Status: ok
+[1597789185,457][INFO]: Waiting for pending navigations...
+[1597789185,458][INFO]: Done waiting for pending navigations. Status: ok
+[1597789185,458][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789185,664][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789185,664][INFO]: Waiting for pending navigations...
+[1597789185,666][INFO]: Done waiting for pending navigations. Status: ok
+[1597789185,677][INFO]: Waiting for pending navigations...
+[1597789185,678][INFO]: Done waiting for pending navigations. Status: ok
+[1597789185,678][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789185,884][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789185,884][INFO]: Waiting for pending navigations...
+[1597789185,886][INFO]: Done waiting for pending navigations. Status: ok
+[1597789185,898][INFO]: Waiting for pending navigations...
+[1597789185,899][INFO]: Done waiting for pending navigations. Status: ok
+[1597789185,899][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789186,105][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789186,105][INFO]: Waiting for pending navigations...
+[1597789186,107][INFO]: Done waiting for pending navigations. Status: ok
+[1597789186,119][INFO]: Waiting for pending navigations...
+[1597789186,123][INFO]: Done waiting for pending navigations. Status: ok
+[1597789186,123][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789186,330][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789186,330][INFO]: Waiting for pending navigations...
+[1597789186,331][INFO]: Done waiting for pending navigations. Status: ok
+[1597789186,338][INFO]: Waiting for pending navigations...
+[1597789186,339][INFO]: Done waiting for pending navigations. Status: ok
+[1597789186,339][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789186,544][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789186,544][INFO]: Waiting for pending navigations...
+[1597789186,546][INFO]: Done waiting for pending navigations. Status: ok
+[1597789186,557][INFO]: Waiting for pending navigations...
+[1597789186,558][INFO]: Done waiting for pending navigations. Status: ok
+[1597789186,558][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789186,764][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789186,764][INFO]: Waiting for pending navigations...
+[1597789186,766][INFO]: Done waiting for pending navigations. Status: ok
+[1597789186,777][INFO]: Waiting for pending navigations...
+[1597789186,778][INFO]: Done waiting for pending navigations. Status: ok
+[1597789186,778][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789186,984][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"
+}
+[1597789186,984][INFO]: Waiting for pending navigations...
+[1597789186,985][INFO]: Done waiting for pending navigations. Status: ok
+[1597789186,996][INFO]: Waiting for pending navigations...
+[1597789186,997][INFO]: Done waiting for pending navigations. Status: ok
+[1597789186,997][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-of-type(2) > td:nth-of-type(2) > .main-page-exchange__indicator.main-page-exchange__indicator--up"}
+  (Session info: chrome=84.0.4147.125)
+[1597789187,221][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1597789187,221][INFO]: Waiting for pending navigations...
+[1597789187,221][INFO]: Done waiting for pending navigations. Status: ok
+[1597789187,249][INFO]: Waiting for pending navigations...
+[1597789187,249][INFO]: Done waiting for pending navigations. Status: ok
+[1597789187,250][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Cstyle type=\"text/css\">\n.anticon {\n  display: inline-block;\n  color: inherit;\n  font-style: normal;\n  line-height: 0;\n  text-align: center;\n  text-transform: none;\n  vertical-align: -0...."
+[1597789187,326][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND Screenshot {
+
+}
+[1597789187,326][INFO]: Waiting for pending navigations...
+[1597789187,327][INFO]: Done waiting for pending navigations. Status: ok
+[1597789187,547][INFO]: Waiting for pending navigations...
+[1597789187,548][INFO]: Done waiting for pending navigations. Status: ok
+[1597789187,548][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB3gAAAOqCAYAAAB+QYToAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xt0VPW9//8nkkkYZAIkkBiSmqEQbpKYkMrVyuABvCLYuACR8yN8W69LFMTTn3r6PYZe1PYUDxhXtbQ9DL9DFV1GQawXpDIqF5EGIkFugTrxkECQDHEmZEgmy..."
+[1597789187,812][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1597789187,812][INFO]: Waiting for pending navigations...
+[1597789187,814][INFO]: Done waiting for pending navigations. Status: ok
+[1597789187,855][INFO]: Waiting for pending navigations...
+[1597789187,856][INFO]: Done waiting for pending navigations. Status: ok
+[1597789187,856][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Cstyle type=\"text/css\">\n.anticon {\n  display: inline-block;\n  color: inherit;\n  font-style: normal;\n  line-height: 0;\n  text-align: center;\n  text-transform: none;\n  vertical-align: -0...."
+[1597789187,897][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND Screenshot {
+
+}
+[1597789187,897][INFO]: Waiting for pending navigations...
+[1597789187,898][INFO]: Done waiting for pending navigations. Status: ok
+[1597789188,114][INFO]: Waiting for pending navigations...
+[1597789188,115][INFO]: Done waiting for pending navigations. Status: ok
+[1597789188,115][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB3gAAAOqCAYAAAB+QYToAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xt0VPW9//8nkkkYZAIkkBiSmqEQbpKYkMrVyuABvCLYuACR8yN8W69LFMTTn3r6PYZe1PYUDxhXtbQ9DL9DFV1GQawXpDIqF5EGIkFugTrxkECQDHEmZEgmy..."
+[1597789188,162][INFO]: [903f3405036924a1dd8199e5133f3ca9] COMMAND Quit {
+
+}
+[1597789188,212][INFO]: [903f3405036924a1dd8199e5133f3ca9] RESPONSE Quit

@@ -1,0 +1,1151 @@
+[1597853294,571][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 28170
+[1597853294,572][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597853294,728][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597853294465_642060_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597853294465_642060_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597853294,729][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597853294465_642060_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597853294,729][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597853294,729][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.NDILTb data:,
+[1597853295,321][INFO]: resolved localhost to ["127.0.0.1"]
+[1597853295,337][INFO]: resolved localhost to ["127.0.0.1"]
+[1597853295,407][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/tmp/.com.google.Chrome.NDILTb"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:42563"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "aa598c3345c5c263bd30d7abcc743116"
+}
+[1597853295,448][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND SetWindowRect {
+   "height": 1080,
+   "width": 1920
+}
+[1597853295,448][INFO]: Waiting for pending navigations...
+[1597853295,449][INFO]: Done waiting for pending navigations. Status: ok
+[1597853295,553][INFO]: Waiting for pending navigations...
+[1597853295,554][INFO]: Done waiting for pending navigations. Status: ok
+[1597853295,554][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE SetWindowRect {
+   "height": 1010,
+   "width": 1912,
+   "x": 4,
+   "y": 66
+}
+[1597853295,561][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND Navigate {
+   "url": "https://www.vtb.ru/personal/platezhi-i-perevody/obmen-valjuty/"
+}
+[1597853295,561][INFO]: Waiting for pending navigations...
+[1597853295,562][INFO]: Done waiting for pending navigations. Status: ok
+[1597853296,144][INFO]: Waiting for pending navigations...
+[1597853302,580][INFO]: Done waiting for pending navigations. Status: ok
+[1597853302,580][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE Navigate
+[1597853302,631][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853302,631][INFO]: Waiting for pending navigations...
+[1597853302,631][INFO]: Done waiting for pending navigations. Status: ok
+[1597853302,638][INFO]: Waiting for pending navigations...
+[1597853302,639][INFO]: Done waiting for pending navigations. Status: ok
+[1597853302,639][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853302,852][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853302,853][INFO]: Waiting for pending navigations...
+[1597853302,853][INFO]: Done waiting for pending navigations. Status: ok
+[1597853302,861][INFO]: Waiting for pending navigations...
+[1597853302,861][INFO]: Done waiting for pending navigations. Status: ok
+[1597853302,861][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853303,071][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853303,071][INFO]: Waiting for pending navigations...
+[1597853303,072][INFO]: Done waiting for pending navigations. Status: ok
+[1597853303,078][INFO]: Waiting for pending navigations...
+[1597853303,078][INFO]: Done waiting for pending navigations. Status: ok
+[1597853303,078][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853303,284][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853303,284][INFO]: Waiting for pending navigations...
+[1597853303,284][INFO]: Done waiting for pending navigations. Status: ok
+[1597853303,288][INFO]: Waiting for pending navigations...
+[1597853303,289][INFO]: Done waiting for pending navigations. Status: ok
+[1597853303,289][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853303,495][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853303,495][INFO]: Waiting for pending navigations...
+[1597853303,496][INFO]: Done waiting for pending navigations. Status: ok
+[1597853303,506][INFO]: Waiting for pending navigations...
+[1597853303,506][INFO]: Done waiting for pending navigations. Status: ok
+[1597853303,506][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853303,717][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853303,717][INFO]: Waiting for pending navigations...
+[1597853303,718][INFO]: Done waiting for pending navigations. Status: ok
+[1597853303,728][INFO]: Waiting for pending navigations...
+[1597853303,729][INFO]: Done waiting for pending navigations. Status: ok
+[1597853303,729][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853303,937][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853303,937][INFO]: Waiting for pending navigations...
+[1597853303,939][INFO]: Done waiting for pending navigations. Status: ok
+[1597853303,947][INFO]: Waiting for pending navigations...
+[1597853303,948][INFO]: Done waiting for pending navigations. Status: ok
+[1597853303,948][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853304,156][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853304,156][INFO]: Waiting for pending navigations...
+[1597853304,157][INFO]: Done waiting for pending navigations. Status: ok
+[1597853304,166][INFO]: Waiting for pending navigations...
+[1597853304,167][INFO]: Done waiting for pending navigations. Status: ok
+[1597853304,167][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853304,376][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853304,376][INFO]: Waiting for pending navigations...
+[1597853304,377][INFO]: Done waiting for pending navigations. Status: ok
+[1597853304,385][INFO]: Waiting for pending navigations...
+[1597853304,386][INFO]: Done waiting for pending navigations. Status: ok
+[1597853304,386][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853304,593][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853304,593][INFO]: Waiting for pending navigations...
+[1597853304,594][INFO]: Done waiting for pending navigations. Status: ok
+[1597853304,614][INFO]: Waiting for pending navigations...
+[1597853304,614][INFO]: Done waiting for pending navigations. Status: ok
+[1597853304,614][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853304,820][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853304,820][INFO]: Waiting for pending navigations...
+[1597853304,822][INFO]: Done waiting for pending navigations. Status: ok
+[1597853304,831][INFO]: Waiting for pending navigations...
+[1597853304,832][INFO]: Done waiting for pending navigations. Status: ok
+[1597853304,832][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853305,040][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853305,040][INFO]: Waiting for pending navigations...
+[1597853305,042][INFO]: Done waiting for pending navigations. Status: ok
+[1597853305,056][INFO]: Waiting for pending navigations...
+[1597853305,057][INFO]: Done waiting for pending navigations. Status: ok
+[1597853305,057][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853305,264][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853305,264][INFO]: Waiting for pending navigations...
+[1597853305,265][INFO]: Done waiting for pending navigations. Status: ok
+[1597853305,274][INFO]: Waiting for pending navigations...
+[1597853305,275][INFO]: Done waiting for pending navigations. Status: ok
+[1597853305,275][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853305,481][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853305,482][INFO]: Waiting for pending navigations...
+[1597853305,482][INFO]: Done waiting for pending navigations. Status: ok
+[1597853305,486][INFO]: Waiting for pending navigations...
+[1597853305,486][INFO]: Done waiting for pending navigations. Status: ok
+[1597853305,486][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853305,692][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853305,692][INFO]: Waiting for pending navigations...
+[1597853305,694][INFO]: Done waiting for pending navigations. Status: ok
+[1597853305,704][INFO]: Waiting for pending navigations...
+[1597853305,705][INFO]: Done waiting for pending navigations. Status: ok
+[1597853305,705][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853305,910][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853305,910][INFO]: Waiting for pending navigations...
+[1597853305,911][INFO]: Done waiting for pending navigations. Status: ok
+[1597853305,914][INFO]: Waiting for pending navigations...
+[1597853305,915][INFO]: Done waiting for pending navigations. Status: ok
+[1597853305,915][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853306,122][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853306,122][INFO]: Waiting for pending navigations...
+[1597853306,123][INFO]: Done waiting for pending navigations. Status: ok
+[1597853306,133][INFO]: Waiting for pending navigations...
+[1597853306,134][INFO]: Done waiting for pending navigations. Status: ok
+[1597853306,134][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853306,341][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853306,341][INFO]: Waiting for pending navigations...
+[1597853306,342][INFO]: Done waiting for pending navigations. Status: ok
+[1597853306,352][INFO]: Waiting for pending navigations...
+[1597853306,352][INFO]: Done waiting for pending navigations. Status: ok
+[1597853306,352][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853306,559][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853306,559][INFO]: Waiting for pending navigations...
+[1597853306,560][INFO]: Done waiting for pending navigations. Status: ok
+[1597853306,570][INFO]: Waiting for pending navigations...
+[1597853306,571][INFO]: Done waiting for pending navigations. Status: ok
+[1597853306,571][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853306,778][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853306,778][INFO]: Waiting for pending navigations...
+[1597853306,779][INFO]: Done waiting for pending navigations. Status: ok
+[1597853306,789][INFO]: Waiting for pending navigations...
+[1597853306,790][INFO]: Done waiting for pending navigations. Status: ok
+[1597853306,790][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853306,996][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853306,996][INFO]: Waiting for pending navigations...
+[1597853306,996][INFO]: Done waiting for pending navigations. Status: ok
+[1597853307,000][INFO]: Waiting for pending navigations...
+[1597853307,001][INFO]: Done waiting for pending navigations. Status: ok
+[1597853307,001][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853307,205][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853307,205][INFO]: Waiting for pending navigations...
+[1597853307,205][INFO]: Done waiting for pending navigations. Status: ok
+[1597853307,209][INFO]: Waiting for pending navigations...
+[1597853307,209][INFO]: Done waiting for pending navigations. Status: ok
+[1597853307,209][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853307,415][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853307,416][INFO]: Waiting for pending navigations...
+[1597853307,417][INFO]: Done waiting for pending navigations. Status: ok
+[1597853307,426][INFO]: Waiting for pending navigations...
+[1597853307,427][INFO]: Done waiting for pending navigations. Status: ok
+[1597853307,427][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853307,634][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853307,634][INFO]: Waiting for pending navigations...
+[1597853307,634][INFO]: Done waiting for pending navigations. Status: ok
+[1597853307,638][INFO]: Waiting for pending navigations...
+[1597853307,638][INFO]: Done waiting for pending navigations. Status: ok
+[1597853307,638][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853307,844][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853307,844][INFO]: Waiting for pending navigations...
+[1597853307,845][INFO]: Done waiting for pending navigations. Status: ok
+[1597853307,853][INFO]: Waiting for pending navigations...
+[1597853307,854][INFO]: Done waiting for pending navigations. Status: ok
+[1597853307,854][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853308,059][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853308,059][INFO]: Waiting for pending navigations...
+[1597853308,060][INFO]: Done waiting for pending navigations. Status: ok
+[1597853308,070][INFO]: Waiting for pending navigations...
+[1597853308,071][INFO]: Done waiting for pending navigations. Status: ok
+[1597853308,072][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853308,277][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853308,277][INFO]: Waiting for pending navigations...
+[1597853308,278][INFO]: Done waiting for pending navigations. Status: ok
+[1597853308,289][INFO]: Waiting for pending navigations...
+[1597853308,290][INFO]: Done waiting for pending navigations. Status: ok
+[1597853308,290][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853308,497][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853308,497][INFO]: Waiting for pending navigations...
+[1597853308,498][INFO]: Done waiting for pending navigations. Status: ok
+[1597853308,508][INFO]: Waiting for pending navigations...
+[1597853308,508][INFO]: Done waiting for pending navigations. Status: ok
+[1597853308,508][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853308,715][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853308,715][INFO]: Waiting for pending navigations...
+[1597853308,716][INFO]: Done waiting for pending navigations. Status: ok
+[1597853308,727][INFO]: Waiting for pending navigations...
+[1597853308,727][INFO]: Done waiting for pending navigations. Status: ok
+[1597853308,727][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853308,935][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853308,935][INFO]: Waiting for pending navigations...
+[1597853308,936][INFO]: Done waiting for pending navigations. Status: ok
+[1597853308,947][INFO]: Waiting for pending navigations...
+[1597853308,948][INFO]: Done waiting for pending navigations. Status: ok
+[1597853308,948][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853309,154][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853309,155][INFO]: Waiting for pending navigations...
+[1597853309,156][INFO]: Done waiting for pending navigations. Status: ok
+[1597853309,166][INFO]: Waiting for pending navigations...
+[1597853309,167][INFO]: Done waiting for pending navigations. Status: ok
+[1597853309,167][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853309,375][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853309,375][INFO]: Waiting for pending navigations...
+[1597853309,376][INFO]: Done waiting for pending navigations. Status: ok
+[1597853309,386][INFO]: Waiting for pending navigations...
+[1597853309,387][INFO]: Done waiting for pending navigations. Status: ok
+[1597853309,387][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853309,593][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853309,593][INFO]: Waiting for pending navigations...
+[1597853309,595][INFO]: Done waiting for pending navigations. Status: ok
+[1597853309,601][INFO]: Waiting for pending navigations...
+[1597853309,601][INFO]: Done waiting for pending navigations. Status: ok
+[1597853309,601][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853309,805][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853309,805][INFO]: Waiting for pending navigations...
+[1597853309,806][INFO]: Done waiting for pending navigations. Status: ok
+[1597853309,809][INFO]: Waiting for pending navigations...
+[1597853309,810][INFO]: Done waiting for pending navigations. Status: ok
+[1597853309,810][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853310,015][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853310,015][INFO]: Waiting for pending navigations...
+[1597853310,015][INFO]: Done waiting for pending navigations. Status: ok
+[1597853310,019][INFO]: Waiting for pending navigations...
+[1597853310,019][INFO]: Done waiting for pending navigations. Status: ok
+[1597853310,019][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853310,223][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853310,223][INFO]: Waiting for pending navigations...
+[1597853310,224][INFO]: Done waiting for pending navigations. Status: ok
+[1597853310,228][INFO]: Waiting for pending navigations...
+[1597853310,229][INFO]: Done waiting for pending navigations. Status: ok
+[1597853310,229][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853310,433][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853310,433][INFO]: Waiting for pending navigations...
+[1597853310,434][INFO]: Done waiting for pending navigations. Status: ok
+[1597853310,437][INFO]: Waiting for pending navigations...
+[1597853310,438][INFO]: Done waiting for pending navigations. Status: ok
+[1597853310,438][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853310,642][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853310,642][INFO]: Waiting for pending navigations...
+[1597853310,643][INFO]: Done waiting for pending navigations. Status: ok
+[1597853310,647][INFO]: Waiting for pending navigations...
+[1597853310,648][INFO]: Done waiting for pending navigations. Status: ok
+[1597853310,648][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853310,853][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853310,853][INFO]: Waiting for pending navigations...
+[1597853310,854][INFO]: Done waiting for pending navigations. Status: ok
+[1597853310,866][INFO]: Waiting for pending navigations...
+[1597853310,867][INFO]: Done waiting for pending navigations. Status: ok
+[1597853310,867][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853311,074][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853311,074][INFO]: Waiting for pending navigations...
+[1597853311,075][INFO]: Done waiting for pending navigations. Status: ok
+[1597853311,085][INFO]: Waiting for pending navigations...
+[1597853311,085][INFO]: Done waiting for pending navigations. Status: ok
+[1597853311,086][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853311,292][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853311,292][INFO]: Waiting for pending navigations...
+[1597853311,293][INFO]: Done waiting for pending navigations. Status: ok
+[1597853311,304][INFO]: Waiting for pending navigations...
+[1597853311,304][INFO]: Done waiting for pending navigations. Status: ok
+[1597853311,304][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853311,512][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853311,512][INFO]: Waiting for pending navigations...
+[1597853311,513][INFO]: Done waiting for pending navigations. Status: ok
+[1597853311,523][INFO]: Waiting for pending navigations...
+[1597853311,524][INFO]: Done waiting for pending navigations. Status: ok
+[1597853311,524][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853311,731][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853311,731][INFO]: Waiting for pending navigations...
+[1597853311,732][INFO]: Done waiting for pending navigations. Status: ok
+[1597853311,741][INFO]: Waiting for pending navigations...
+[1597853311,742][INFO]: Done waiting for pending navigations. Status: ok
+[1597853311,742][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853311,949][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853311,949][INFO]: Waiting for pending navigations...
+[1597853311,950][INFO]: Done waiting for pending navigations. Status: ok
+[1597853311,960][INFO]: Waiting for pending navigations...
+[1597853311,961][INFO]: Done waiting for pending navigations. Status: ok
+[1597853311,961][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853312,168][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853312,168][INFO]: Waiting for pending navigations...
+[1597853312,169][INFO]: Done waiting for pending navigations. Status: ok
+[1597853312,180][INFO]: Waiting for pending navigations...
+[1597853312,180][INFO]: Done waiting for pending navigations. Status: ok
+[1597853312,180][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853312,386][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853312,387][INFO]: Waiting for pending navigations...
+[1597853312,394][INFO]: Done waiting for pending navigations. Status: ok
+[1597853312,403][INFO]: Waiting for pending navigations...
+[1597853312,404][INFO]: Done waiting for pending navigations. Status: ok
+[1597853312,404][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853312,609][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-u3\\-container"
+}
+[1597853312,610][INFO]: Waiting for pending navigations...
+[1597853312,611][INFO]: Done waiting for pending navigations. Status: ok
+[1597853312,622][INFO]: Waiting for pending navigations...
+[1597853312,623][INFO]: Done waiting for pending navigations. Status: ok
+[1597853312,623][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-u3\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853312,836][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1597853312,836][INFO]: Waiting for pending navigations...
+[1597853312,837][INFO]: Done waiting for pending navigations. Status: ok
+[1597853312,863][INFO]: Waiting for pending navigations...
+[1597853312,863][INFO]: Done waiting for pending navigations. Status: ok
+[1597853312,864][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\">\u003Chead>\u003Cstyle type=\"text/css\">[uib-typeahead-popup].dropdown-menu{display:block;}\u003C/style>\u003Cstyle type=\"text/css\">.uib-time input{width:50px;}\u003C/style>\u003Cstyle type=\"text/css\">[uib-toolti..."
+[1597853312,933][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND Screenshot {
+
+}
+[1597853312,933][INFO]: Waiting for pending navigations...
+[1597853312,933][INFO]: Done waiting for pending navigations. Status: ok
+[1597853313,070][INFO]: Waiting for pending navigations...
+[1597853313,071][INFO]: Done waiting for pending navigations. Status: ok
+[1597853313,071][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB3gAAAOqCAYAAAB+QYToAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XmcTuX/x/H3LGbfMLaZLIMwNLbQYslakrX0pUiyRVG/9P0qtGijVEoR0WItSiF7EaFiyJ6dsc0w1tn3mfv3x5gxy73NmJl7bl7Px8Oj5izX+Zz9us/nXNdx8..."
+[1597853313,109][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853313,109][INFO]: Waiting for pending navigations...
+[1597853313,109][INFO]: Done waiting for pending navigations. Status: ok
+[1597853313,116][INFO]: Waiting for pending navigations...
+[1597853313,117][INFO]: Done waiting for pending navigations. Status: ok
+[1597853313,117][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853313,321][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853313,322][INFO]: Waiting for pending navigations...
+[1597853313,323][INFO]: Done waiting for pending navigations. Status: ok
+[1597853313,331][INFO]: Waiting for pending navigations...
+[1597853313,332][INFO]: Done waiting for pending navigations. Status: ok
+[1597853313,332][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853313,537][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853313,538][INFO]: Waiting for pending navigations...
+[1597853313,539][INFO]: Done waiting for pending navigations. Status: ok
+[1597853313,549][INFO]: Waiting for pending navigations...
+[1597853313,549][INFO]: Done waiting for pending navigations. Status: ok
+[1597853313,549][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853313,754][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853313,754][INFO]: Waiting for pending navigations...
+[1597853313,755][INFO]: Done waiting for pending navigations. Status: ok
+[1597853313,760][INFO]: Waiting for pending navigations...
+[1597853313,760][INFO]: Done waiting for pending navigations. Status: ok
+[1597853313,760][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853313,965][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853313,965][INFO]: Waiting for pending navigations...
+[1597853313,966][INFO]: Done waiting for pending navigations. Status: ok
+[1597853313,971][INFO]: Waiting for pending navigations...
+[1597853313,971][INFO]: Done waiting for pending navigations. Status: ok
+[1597853313,971][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853314,176][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853314,176][INFO]: Waiting for pending navigations...
+[1597853314,177][INFO]: Done waiting for pending navigations. Status: ok
+[1597853314,187][INFO]: Waiting for pending navigations...
+[1597853314,188][INFO]: Done waiting for pending navigations. Status: ok
+[1597853314,188][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853314,394][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853314,394][INFO]: Waiting for pending navigations...
+[1597853314,395][INFO]: Done waiting for pending navigations. Status: ok
+[1597853314,405][INFO]: Waiting for pending navigations...
+[1597853314,406][INFO]: Done waiting for pending navigations. Status: ok
+[1597853314,406][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853314,613][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853314,613][INFO]: Waiting for pending navigations...
+[1597853314,614][INFO]: Done waiting for pending navigations. Status: ok
+[1597853314,625][INFO]: Waiting for pending navigations...
+[1597853314,625][INFO]: Done waiting for pending navigations. Status: ok
+[1597853314,625][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853314,832][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853314,832][INFO]: Waiting for pending navigations...
+[1597853314,833][INFO]: Done waiting for pending navigations. Status: ok
+[1597853314,843][INFO]: Waiting for pending navigations...
+[1597853314,845][INFO]: Done waiting for pending navigations. Status: ok
+[1597853314,845][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853315,052][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853315,052][INFO]: Waiting for pending navigations...
+[1597853315,053][INFO]: Done waiting for pending navigations. Status: ok
+[1597853315,064][INFO]: Waiting for pending navigations...
+[1597853315,064][INFO]: Done waiting for pending navigations. Status: ok
+[1597853315,064][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853315,269][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853315,269][INFO]: Waiting for pending navigations...
+[1597853315,271][INFO]: Done waiting for pending navigations. Status: ok
+[1597853315,281][INFO]: Waiting for pending navigations...
+[1597853315,282][INFO]: Done waiting for pending navigations. Status: ok
+[1597853315,282][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853315,488][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853315,488][INFO]: Waiting for pending navigations...
+[1597853315,489][INFO]: Done waiting for pending navigations. Status: ok
+[1597853315,498][INFO]: Waiting for pending navigations...
+[1597853315,498][INFO]: Done waiting for pending navigations. Status: ok
+[1597853315,498][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853315,704][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853315,704][INFO]: Waiting for pending navigations...
+[1597853315,706][INFO]: Done waiting for pending navigations. Status: ok
+[1597853315,714][INFO]: Waiting for pending navigations...
+[1597853315,715][INFO]: Done waiting for pending navigations. Status: ok
+[1597853315,715][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853315,921][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853315,921][INFO]: Waiting for pending navigations...
+[1597853315,923][INFO]: Done waiting for pending navigations. Status: ok
+[1597853315,932][INFO]: Waiting for pending navigations...
+[1597853315,933][INFO]: Done waiting for pending navigations. Status: ok
+[1597853315,933][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853316,140][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853316,140][INFO]: Waiting for pending navigations...
+[1597853316,141][INFO]: Done waiting for pending navigations. Status: ok
+[1597853316,151][INFO]: Waiting for pending navigations...
+[1597853316,151][INFO]: Done waiting for pending navigations. Status: ok
+[1597853316,151][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853316,358][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853316,358][INFO]: Waiting for pending navigations...
+[1597853316,360][INFO]: Done waiting for pending navigations. Status: ok
+[1597853316,371][INFO]: Waiting for pending navigations...
+[1597853316,372][INFO]: Done waiting for pending navigations. Status: ok
+[1597853316,372][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853316,578][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853316,578][INFO]: Waiting for pending navigations...
+[1597853316,579][INFO]: Done waiting for pending navigations. Status: ok
+[1597853316,589][INFO]: Waiting for pending navigations...
+[1597853316,590][INFO]: Done waiting for pending navigations. Status: ok
+[1597853316,590][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853316,795][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853316,795][INFO]: Waiting for pending navigations...
+[1597853316,796][INFO]: Done waiting for pending navigations. Status: ok
+[1597853316,807][INFO]: Waiting for pending navigations...
+[1597853316,808][INFO]: Done waiting for pending navigations. Status: ok
+[1597853316,808][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853317,015][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853317,015][INFO]: Waiting for pending navigations...
+[1597853317,016][INFO]: Done waiting for pending navigations. Status: ok
+[1597853317,025][INFO]: Waiting for pending navigations...
+[1597853317,025][INFO]: Done waiting for pending navigations. Status: ok
+[1597853317,025][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853317,232][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853317,232][INFO]: Waiting for pending navigations...
+[1597853317,233][INFO]: Done waiting for pending navigations. Status: ok
+[1597853317,241][INFO]: Waiting for pending navigations...
+[1597853317,241][INFO]: Done waiting for pending navigations. Status: ok
+[1597853317,241][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853317,449][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853317,449][INFO]: Waiting for pending navigations...
+[1597853317,450][INFO]: Done waiting for pending navigations. Status: ok
+[1597853317,458][INFO]: Waiting for pending navigations...
+[1597853317,458][INFO]: Done waiting for pending navigations. Status: ok
+[1597853317,458][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853317,665][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853317,665][INFO]: Waiting for pending navigations...
+[1597853317,667][INFO]: Done waiting for pending navigations. Status: ok
+[1597853317,676][INFO]: Waiting for pending navigations...
+[1597853317,676][INFO]: Done waiting for pending navigations. Status: ok
+[1597853317,676][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853317,882][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853317,882][INFO]: Waiting for pending navigations...
+[1597853317,883][INFO]: Done waiting for pending navigations. Status: ok
+[1597853317,892][INFO]: Waiting for pending navigations...
+[1597853317,892][INFO]: Done waiting for pending navigations. Status: ok
+[1597853317,892][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853318,099][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853318,100][INFO]: Waiting for pending navigations...
+[1597853318,101][INFO]: Done waiting for pending navigations. Status: ok
+[1597853318,112][INFO]: Waiting for pending navigations...
+[1597853318,112][INFO]: Done waiting for pending navigations. Status: ok
+[1597853318,112][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853318,318][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853318,318][INFO]: Waiting for pending navigations...
+[1597853318,320][INFO]: Done waiting for pending navigations. Status: ok
+[1597853318,329][INFO]: Waiting for pending navigations...
+[1597853318,330][INFO]: Done waiting for pending navigations. Status: ok
+[1597853318,330][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853318,536][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853318,536][INFO]: Waiting for pending navigations...
+[1597853318,538][INFO]: Done waiting for pending navigations. Status: ok
+[1597853318,550][INFO]: Waiting for pending navigations...
+[1597853318,551][INFO]: Done waiting for pending navigations. Status: ok
+[1597853318,551][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853318,756][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853318,756][INFO]: Waiting for pending navigations...
+[1597853318,757][INFO]: Done waiting for pending navigations. Status: ok
+[1597853318,767][INFO]: Waiting for pending navigations...
+[1597853318,768][INFO]: Done waiting for pending navigations. Status: ok
+[1597853318,768][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853318,975][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853318,975][INFO]: Waiting for pending navigations...
+[1597853318,976][INFO]: Done waiting for pending navigations. Status: ok
+[1597853318,982][INFO]: Waiting for pending navigations...
+[1597853318,982][INFO]: Done waiting for pending navigations. Status: ok
+[1597853318,982][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853319,187][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853319,187][INFO]: Waiting for pending navigations...
+[1597853319,188][INFO]: Done waiting for pending navigations. Status: ok
+[1597853319,199][INFO]: Waiting for pending navigations...
+[1597853319,200][INFO]: Done waiting for pending navigations. Status: ok
+[1597853319,200][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853319,406][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853319,406][INFO]: Waiting for pending navigations...
+[1597853319,408][INFO]: Done waiting for pending navigations. Status: ok
+[1597853319,418][INFO]: Waiting for pending navigations...
+[1597853319,419][INFO]: Done waiting for pending navigations. Status: ok
+[1597853319,419][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853319,626][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853319,626][INFO]: Waiting for pending navigations...
+[1597853319,627][INFO]: Done waiting for pending navigations. Status: ok
+[1597853319,639][INFO]: Waiting for pending navigations...
+[1597853319,640][INFO]: Done waiting for pending navigations. Status: ok
+[1597853319,640][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853319,846][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853319,846][INFO]: Waiting for pending navigations...
+[1597853319,847][INFO]: Done waiting for pending navigations. Status: ok
+[1597853319,850][INFO]: Waiting for pending navigations...
+[1597853319,850][INFO]: Done waiting for pending navigations. Status: ok
+[1597853319,850][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853320,054][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853320,054][INFO]: Waiting for pending navigations...
+[1597853320,054][INFO]: Done waiting for pending navigations. Status: ok
+[1597853320,060][INFO]: Waiting for pending navigations...
+[1597853320,061][INFO]: Done waiting for pending navigations. Status: ok
+[1597853320,061][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853320,266][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853320,266][INFO]: Waiting for pending navigations...
+[1597853320,267][INFO]: Done waiting for pending navigations. Status: ok
+[1597853320,275][INFO]: Waiting for pending navigations...
+[1597853320,277][INFO]: Done waiting for pending navigations. Status: ok
+[1597853320,277][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853320,482][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853320,482][INFO]: Waiting for pending navigations...
+[1597853320,482][INFO]: Done waiting for pending navigations. Status: ok
+[1597853320,486][INFO]: Waiting for pending navigations...
+[1597853320,487][INFO]: Done waiting for pending navigations. Status: ok
+[1597853320,487][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853320,691][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853320,691][INFO]: Waiting for pending navigations...
+[1597853320,692][INFO]: Done waiting for pending navigations. Status: ok
+[1597853320,696][INFO]: Waiting for pending navigations...
+[1597853320,696][INFO]: Done waiting for pending navigations. Status: ok
+[1597853320,696][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853320,901][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853320,901][INFO]: Waiting for pending navigations...
+[1597853320,902][INFO]: Done waiting for pending navigations. Status: ok
+[1597853320,912][INFO]: Waiting for pending navigations...
+[1597853320,913][INFO]: Done waiting for pending navigations. Status: ok
+[1597853320,913][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853321,118][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853321,118][INFO]: Waiting for pending navigations...
+[1597853321,120][INFO]: Done waiting for pending navigations. Status: ok
+[1597853321,132][INFO]: Waiting for pending navigations...
+[1597853321,133][INFO]: Done waiting for pending navigations. Status: ok
+[1597853321,133][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853321,338][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853321,338][INFO]: Waiting for pending navigations...
+[1597853321,340][INFO]: Done waiting for pending navigations. Status: ok
+[1597853321,351][INFO]: Waiting for pending navigations...
+[1597853321,352][INFO]: Done waiting for pending navigations. Status: ok
+[1597853321,352][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853321,558][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853321,558][INFO]: Waiting for pending navigations...
+[1597853321,560][INFO]: Done waiting for pending navigations. Status: ok
+[1597853321,570][INFO]: Waiting for pending navigations...
+[1597853321,571][INFO]: Done waiting for pending navigations. Status: ok
+[1597853321,571][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853321,776][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853321,776][INFO]: Waiting for pending navigations...
+[1597853321,778][INFO]: Done waiting for pending navigations. Status: ok
+[1597853321,788][INFO]: Waiting for pending navigations...
+[1597853321,789][INFO]: Done waiting for pending navigations. Status: ok
+[1597853321,789][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853321,994][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853321,994][INFO]: Waiting for pending navigations...
+[1597853321,995][INFO]: Done waiting for pending navigations. Status: ok
+[1597853321,999][INFO]: Waiting for pending navigations...
+[1597853321,999][INFO]: Done waiting for pending navigations. Status: ok
+[1597853321,999][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853322,204][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853322,204][INFO]: Waiting for pending navigations...
+[1597853322,205][INFO]: Done waiting for pending navigations. Status: ok
+[1597853322,214][INFO]: Waiting for pending navigations...
+[1597853322,215][INFO]: Done waiting for pending navigations. Status: ok
+[1597853322,215][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853322,420][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853322,420][INFO]: Waiting for pending navigations...
+[1597853322,421][INFO]: Done waiting for pending navigations. Status: ok
+[1597853322,429][INFO]: Waiting for pending navigations...
+[1597853322,429][INFO]: Done waiting for pending navigations. Status: ok
+[1597853322,429][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853322,634][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853322,634][INFO]: Waiting for pending navigations...
+[1597853322,636][INFO]: Done waiting for pending navigations. Status: ok
+[1597853322,645][INFO]: Waiting for pending navigations...
+[1597853322,645][INFO]: Done waiting for pending navigations. Status: ok
+[1597853322,645][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853322,851][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853322,851][INFO]: Waiting for pending navigations...
+[1597853322,853][INFO]: Done waiting for pending navigations. Status: ok
+[1597853322,863][INFO]: Waiting for pending navigations...
+[1597853322,864][INFO]: Done waiting for pending navigations. Status: ok
+[1597853322,864][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853323,069][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#select2\\-name\\-5d\\-container"
+}
+[1597853323,069][INFO]: Waiting for pending navigations...
+[1597853323,071][INFO]: Done waiting for pending navigations. Status: ok
+[1597853323,081][INFO]: Waiting for pending navigations...
+[1597853323,082][INFO]: Done waiting for pending navigations. Status: ok
+[1597853323,082][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#select2\-name\-5d\-container"}
+  (Session info: chrome=84.0.4147.125)
+[1597853323,288][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1597853323,288][INFO]: Waiting for pending navigations...
+[1597853323,292][INFO]: Done waiting for pending navigations. Status: ok
+[1597853323,308][INFO]: Waiting for pending navigations...
+[1597853323,309][INFO]: Done waiting for pending navigations. Status: ok
+[1597853323,309][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\">\u003Chead>\u003Cstyle type=\"text/css\">[uib-typeahead-popup].dropdown-menu{display:block;}\u003C/style>\u003Cstyle type=\"text/css\">.uib-time input{width:50px;}\u003C/style>\u003Cstyle type=\"text/css\">[uib-toolti..."
+[1597853323,336][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND Screenshot {
+
+}
+[1597853323,336][INFO]: Waiting for pending navigations...
+[1597853323,337][INFO]: Done waiting for pending navigations. Status: ok
+[1597853323,473][INFO]: Waiting for pending navigations...
+[1597853323,474][INFO]: Done waiting for pending navigations. Status: ok
+[1597853323,474][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB3gAAAOqCAYAAAB+QYToAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XmcTuX/x/H3LGbfMLaZLIMwNLbQYslakrX0pUiyRVG/9P0qtGijVEoR0WItSiF7EaFiyJ6dsc0w1tn3mfv3x5gxy73NmJl7bl7Px8Oj5izX+Zz9us/nXNdx8..."
+[1597853323,489][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND DeleteAllCookies {
+
+}
+[1597853323,489][INFO]: Waiting for pending navigations...
+[1597853323,490][INFO]: Done waiting for pending navigations. Status: ok
+[1597853323,647][INFO]: Waiting for pending navigations...
+[1597853323,648][INFO]: Done waiting for pending navigations. Status: ok
+[1597853323,648][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE DeleteAllCookies
+[1597853323,651][INFO]: [aa598c3345c5c263bd30d7abcc743116] COMMAND Quit {
+
+}
+[1597853323,701][INFO]: [aa598c3345c5c263bd30d7abcc743116] RESPONSE Quit

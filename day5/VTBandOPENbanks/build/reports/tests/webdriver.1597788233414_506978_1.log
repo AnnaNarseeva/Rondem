@@ -1,0 +1,663 @@
+[1597788233,484][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 29402
+[1597788233,485][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597788233,668][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597788233066_506978_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597788233066_506978_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597788233,668][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597788233066_506978_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597788233,668][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597788233,668][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.j6NjVD data:,
+[1597788234,183][INFO]: resolved localhost to ["127.0.0.1"]
+[1597788234,195][INFO]: resolved localhost to ["127.0.0.1"]
+[1597788234,210][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/tmp/.com.google.Chrome.j6NjVD"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:44901"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "cd0e36ac0554fdcd1fd80ebb7cd0e3e2"
+}
+[1597788234,267][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND SetWindowRect {
+   "height": 1080,
+   "width": 1920
+}
+[1597788234,267][INFO]: Waiting for pending navigations...
+[1597788234,269][INFO]: Done waiting for pending navigations. Status: ok
+[1597788234,371][INFO]: Waiting for pending navigations...
+[1597788234,372][INFO]: Done waiting for pending navigations. Status: ok
+[1597788234,372][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE SetWindowRect {
+   "height": 1010,
+   "width": 1912,
+   "x": 4,
+   "y": 66
+}
+[1597788234,378][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND Navigate {
+   "url": "https://www.open.ru/"
+}
+[1597788234,378][INFO]: Waiting for pending navigations...
+[1597788234,379][INFO]: Done waiting for pending navigations. Status: ok
+[1597788235,879][INFO]: Waiting for pending navigations...
+[1597788239,453][INFO]: Done waiting for pending navigations. Status: ok
+[1597788239,453][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE Navigate
+[1597788239,494][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788239,494][INFO]: Waiting for pending navigations...
+[1597788239,524][INFO]: Done waiting for pending navigations. Status: ok
+[1597788239,549][INFO]: Waiting for pending navigations...
+[1597788239,550][INFO]: Done waiting for pending navigations. Status: ok
+[1597788239,550][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788239,760][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788239,760][INFO]: Waiting for pending navigations...
+[1597788239,760][INFO]: Done waiting for pending navigations. Status: ok
+[1597788239,765][INFO]: Waiting for pending navigations...
+[1597788239,765][INFO]: Done waiting for pending navigations. Status: ok
+[1597788239,765][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788239,972][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788239,977][INFO]: Waiting for pending navigations...
+[1597788239,978][INFO]: Done waiting for pending navigations. Status: ok
+[1597788239,985][INFO]: Waiting for pending navigations...
+[1597788239,985][INFO]: Done waiting for pending navigations. Status: ok
+[1597788239,985][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788240,190][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788240,191][INFO]: Waiting for pending navigations...
+[1597788240,191][INFO]: Done waiting for pending navigations. Status: ok
+[1597788240,196][INFO]: Waiting for pending navigations...
+[1597788240,196][INFO]: Done waiting for pending navigations. Status: ok
+[1597788240,196][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788240,401][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788240,401][INFO]: Waiting for pending navigations...
+[1597788240,402][INFO]: Done waiting for pending navigations. Status: ok
+[1597788240,408][INFO]: Waiting for pending navigations...
+[1597788240,408][INFO]: Done waiting for pending navigations. Status: ok
+[1597788240,408][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788240,612][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788240,612][INFO]: Waiting for pending navigations...
+[1597788240,613][INFO]: Done waiting for pending navigations. Status: ok
+[1597788240,618][INFO]: Waiting for pending navigations...
+[1597788240,619][INFO]: Done waiting for pending navigations. Status: ok
+[1597788240,619][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788240,824][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788240,824][INFO]: Waiting for pending navigations...
+[1597788240,824][INFO]: Done waiting for pending navigations. Status: ok
+[1597788240,829][INFO]: Waiting for pending navigations...
+[1597788240,829][INFO]: Done waiting for pending navigations. Status: ok
+[1597788240,829][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788241,036][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788241,036][INFO]: Waiting for pending navigations...
+[1597788241,037][INFO]: Done waiting for pending navigations. Status: ok
+[1597788241,049][INFO]: Waiting for pending navigations...
+[1597788241,049][INFO]: Done waiting for pending navigations. Status: ok
+[1597788241,049][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788241,254][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788241,255][INFO]: Waiting for pending navigations...
+[1597788241,256][INFO]: Done waiting for pending navigations. Status: ok
+[1597788241,260][INFO]: Waiting for pending navigations...
+[1597788241,261][INFO]: Done waiting for pending navigations. Status: ok
+[1597788241,261][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788241,465][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788241,465][INFO]: Waiting for pending navigations...
+[1597788241,465][INFO]: Done waiting for pending navigations. Status: ok
+[1597788241,471][INFO]: Waiting for pending navigations...
+[1597788241,471][INFO]: Done waiting for pending navigations. Status: ok
+[1597788241,471][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788241,677][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788241,678][INFO]: Waiting for pending navigations...
+[1597788241,679][INFO]: Done waiting for pending navigations. Status: ok
+[1597788241,690][INFO]: Waiting for pending navigations...
+[1597788241,691][INFO]: Done waiting for pending navigations. Status: ok
+[1597788241,691][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788241,897][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788241,897][INFO]: Waiting for pending navigations...
+[1597788241,898][INFO]: Done waiting for pending navigations. Status: ok
+[1597788241,910][INFO]: Waiting for pending navigations...
+[1597788241,910][INFO]: Done waiting for pending navigations. Status: ok
+[1597788241,910][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788242,115][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788242,115][INFO]: Waiting for pending navigations...
+[1597788242,116][INFO]: Done waiting for pending navigations. Status: ok
+[1597788242,129][INFO]: Waiting for pending navigations...
+[1597788242,129][INFO]: Done waiting for pending navigations. Status: ok
+[1597788242,129][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788242,336][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788242,336][INFO]: Waiting for pending navigations...
+[1597788242,337][INFO]: Done waiting for pending navigations. Status: ok
+[1597788242,349][INFO]: Waiting for pending navigations...
+[1597788242,349][INFO]: Done waiting for pending navigations. Status: ok
+[1597788242,349][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788242,554][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788242,554][INFO]: Waiting for pending navigations...
+[1597788242,555][INFO]: Done waiting for pending navigations. Status: ok
+[1597788242,563][INFO]: Waiting for pending navigations...
+[1597788242,563][INFO]: Done waiting for pending navigations. Status: ok
+[1597788242,563][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788242,768][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788242,768][INFO]: Waiting for pending navigations...
+[1597788242,768][INFO]: Done waiting for pending navigations. Status: ok
+[1597788242,773][INFO]: Waiting for pending navigations...
+[1597788242,773][INFO]: Done waiting for pending navigations. Status: ok
+[1597788242,773][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788242,979][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788242,979][INFO]: Waiting for pending navigations...
+[1597788242,980][INFO]: Done waiting for pending navigations. Status: ok
+[1597788242,997][INFO]: Waiting for pending navigations...
+[1597788242,997][INFO]: Done waiting for pending navigations. Status: ok
+[1597788242,997][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788243,205][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788243,205][INFO]: Waiting for pending navigations...
+[1597788243,207][INFO]: Done waiting for pending navigations. Status: ok
+[1597788243,227][INFO]: Waiting for pending navigations...
+[1597788243,227][INFO]: Done waiting for pending navigations. Status: ok
+[1597788243,227][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788243,432][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788243,432][INFO]: Waiting for pending navigations...
+[1597788243,432][INFO]: Done waiting for pending navigations. Status: ok
+[1597788243,438][INFO]: Waiting for pending navigations...
+[1597788243,438][INFO]: Done waiting for pending navigations. Status: ok
+[1597788243,438][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788243,644][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788243,644][INFO]: Waiting for pending navigations...
+[1597788243,645][INFO]: Done waiting for pending navigations. Status: ok
+[1597788243,658][INFO]: Waiting for pending navigations...
+[1597788243,658][INFO]: Done waiting for pending navigations. Status: ok
+[1597788243,658][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788243,864][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788243,864][INFO]: Waiting for pending navigations...
+[1597788243,865][INFO]: Done waiting for pending navigations. Status: ok
+[1597788243,875][INFO]: Waiting for pending navigations...
+[1597788243,876][INFO]: Done waiting for pending navigations. Status: ok
+[1597788243,876][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788244,081][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788244,081][INFO]: Waiting for pending navigations...
+[1597788244,083][INFO]: Done waiting for pending navigations. Status: ok
+[1597788244,095][INFO]: Waiting for pending navigations...
+[1597788244,095][INFO]: Done waiting for pending navigations. Status: ok
+[1597788244,095][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788244,301][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788244,301][INFO]: Waiting for pending navigations...
+[1597788244,303][INFO]: Done waiting for pending navigations. Status: ok
+[1597788244,315][INFO]: Waiting for pending navigations...
+[1597788244,315][INFO]: Done waiting for pending navigations. Status: ok
+[1597788244,315][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788244,520][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788244,520][INFO]: Waiting for pending navigations...
+[1597788244,520][INFO]: Done waiting for pending navigations. Status: ok
+[1597788244,525][INFO]: Waiting for pending navigations...
+[1597788244,526][INFO]: Done waiting for pending navigations. Status: ok
+[1597788244,526][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788244,731][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788244,731][INFO]: Waiting for pending navigations...
+[1597788244,733][INFO]: Done waiting for pending navigations. Status: ok
+[1597788244,739][INFO]: Waiting for pending navigations...
+[1597788244,739][INFO]: Done waiting for pending navigations. Status: ok
+[1597788244,739][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788244,944][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788244,944][INFO]: Waiting for pending navigations...
+[1597788244,945][INFO]: Done waiting for pending navigations. Status: ok
+[1597788244,958][INFO]: Waiting for pending navigations...
+[1597788244,958][INFO]: Done waiting for pending navigations. Status: ok
+[1597788244,958][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788245,164][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788245,164][INFO]: Waiting for pending navigations...
+[1597788245,166][INFO]: Done waiting for pending navigations. Status: ok
+[1597788245,178][INFO]: Waiting for pending navigations...
+[1597788245,179][INFO]: Done waiting for pending navigations. Status: ok
+[1597788245,179][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788245,384][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788245,384][INFO]: Waiting for pending navigations...
+[1597788245,386][INFO]: Done waiting for pending navigations. Status: ok
+[1597788245,392][INFO]: Waiting for pending navigations...
+[1597788245,393][INFO]: Done waiting for pending navigations. Status: ok
+[1597788245,393][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788245,598][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788245,598][INFO]: Waiting for pending navigations...
+[1597788245,600][INFO]: Done waiting for pending navigations. Status: ok
+[1597788245,610][INFO]: Waiting for pending navigations...
+[1597788245,611][INFO]: Done waiting for pending navigations. Status: ok
+[1597788245,611][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788245,816][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788245,816][INFO]: Waiting for pending navigations...
+[1597788245,818][INFO]: Done waiting for pending navigations. Status: ok
+[1597788245,825][INFO]: Waiting for pending navigations...
+[1597788245,825][INFO]: Done waiting for pending navigations. Status: ok
+[1597788245,825][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788246,031][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788246,031][INFO]: Waiting for pending navigations...
+[1597788246,032][INFO]: Done waiting for pending navigations. Status: ok
+[1597788246,043][INFO]: Waiting for pending navigations...
+[1597788246,043][INFO]: Done waiting for pending navigations. Status: ok
+[1597788246,043][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788246,249][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788246,249][INFO]: Waiting for pending navigations...
+[1597788246,253][INFO]: Done waiting for pending navigations. Status: ok
+[1597788246,268][INFO]: Waiting for pending navigations...
+[1597788246,269][INFO]: Done waiting for pending navigations. Status: ok
+[1597788246,269][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788246,475][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788246,475][INFO]: Waiting for pending navigations...
+[1597788246,477][INFO]: Done waiting for pending navigations. Status: ok
+[1597788246,484][INFO]: Waiting for pending navigations...
+[1597788246,484][INFO]: Done waiting for pending navigations. Status: ok
+[1597788246,484][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788246,689][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788246,689][INFO]: Waiting for pending navigations...
+[1597788246,689][INFO]: Done waiting for pending navigations. Status: ok
+[1597788246,694][INFO]: Waiting for pending navigations...
+[1597788246,695][INFO]: Done waiting for pending navigations. Status: ok
+[1597788246,695][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788246,900][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788246,900][INFO]: Waiting for pending navigations...
+[1597788246,903][INFO]: Done waiting for pending navigations. Status: ok
+[1597788246,916][INFO]: Waiting for pending navigations...
+[1597788246,917][INFO]: Done waiting for pending navigations. Status: ok
+[1597788246,917][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788247,123][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788247,123][INFO]: Waiting for pending navigations...
+[1597788247,124][INFO]: Done waiting for pending navigations. Status: ok
+[1597788247,136][INFO]: Waiting for pending navigations...
+[1597788247,136][INFO]: Done waiting for pending navigations. Status: ok
+[1597788247,136][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788247,342][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788247,342][INFO]: Waiting for pending navigations...
+[1597788247,344][INFO]: Done waiting for pending navigations. Status: ok
+[1597788247,359][INFO]: Waiting for pending navigations...
+[1597788247,359][INFO]: Done waiting for pending navigations. Status: ok
+[1597788247,359][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788247,565][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788247,566][INFO]: Waiting for pending navigations...
+[1597788247,569][INFO]: Done waiting for pending navigations. Status: ok
+[1597788247,585][INFO]: Waiting for pending navigations...
+[1597788247,586][INFO]: Done waiting for pending navigations. Status: ok
+[1597788247,586][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788247,791][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788247,791][INFO]: Waiting for pending navigations...
+[1597788247,792][INFO]: Done waiting for pending navigations. Status: ok
+[1597788247,803][INFO]: Waiting for pending navigations...
+[1597788247,804][INFO]: Done waiting for pending navigations. Status: ok
+[1597788247,804][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788248,009][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788248,009][INFO]: Waiting for pending navigations...
+[1597788248,011][INFO]: Done waiting for pending navigations. Status: ok
+[1597788248,025][INFO]: Waiting for pending navigations...
+[1597788248,026][INFO]: Done waiting for pending navigations. Status: ok
+[1597788248,026][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788248,232][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788248,232][INFO]: Waiting for pending navigations...
+[1597788248,236][INFO]: Done waiting for pending navigations. Status: ok
+[1597788248,248][INFO]: Waiting for pending navigations...
+[1597788248,248][INFO]: Done waiting for pending navigations. Status: ok
+[1597788248,248][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788248,454][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788248,454][INFO]: Waiting for pending navigations...
+[1597788248,455][INFO]: Done waiting for pending navigations. Status: ok
+[1597788248,468][INFO]: Waiting for pending navigations...
+[1597788248,468][INFO]: Done waiting for pending navigations. Status: ok
+[1597788248,468][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788248,674][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788248,674][INFO]: Waiting for pending navigations...
+[1597788248,676][INFO]: Done waiting for pending navigations. Status: ok
+[1597788248,688][INFO]: Waiting for pending navigations...
+[1597788248,689][INFO]: Done waiting for pending navigations. Status: ok
+[1597788248,689][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788248,894][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788248,894][INFO]: Waiting for pending navigations...
+[1597788248,896][INFO]: Done waiting for pending navigations. Status: ok
+[1597788248,902][INFO]: Waiting for pending navigations...
+[1597788248,902][INFO]: Done waiting for pending navigations. Status: ok
+[1597788248,902][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788249,106][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788249,106][INFO]: Waiting for pending navigations...
+[1597788249,107][INFO]: Done waiting for pending navigations. Status: ok
+[1597788249,112][INFO]: Waiting for pending navigations...
+[1597788249,113][INFO]: Done waiting for pending navigations. Status: ok
+[1597788249,113][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788249,318][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-..."
+}
+[1597788249,318][INFO]: Waiting for pending navigations...
+[1597788249,320][INFO]: Done waiting for pending navigations. Status: ok
+[1597788249,333][INFO]: Waiting for pending navigations...
+[1597788249,335][INFO]: Done waiting for pending navigations. Status: ok
+[1597788249,335][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main']/div[@class='page-wrapper page-wrapper--main']/div[@class='page-wrapper__content']/div[7]/section/div//div[@class='ReactCollapse--collapse']//div[@class='ant-tabs-content ant-tabs-content-animated ant-tabs-top-content']/div[2]//table[@class='main-page-exchange__table main-page-exchange__table--online']/tbody/tr[2]/td[2]//span[@class='main-page-exchange__rate']"}
+  (Session info: chrome=84.0.4147.125)
+[1597788249,562][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1597788249,562][INFO]: Waiting for pending navigations...
+[1597788249,563][INFO]: Done waiting for pending navigations. Status: ok
+[1597788249,594][INFO]: Waiting for pending navigations...
+[1597788249,595][INFO]: Done waiting for pending navigations. Status: ok
+[1597788249,595][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Cstyle type=\"text/css\">\n.anticon {\n  display: inline-block;\n  color: inherit;\n  font-style: normal;\n  line-height: 0;\n  text-align: center;\n  text-transform: none;\n  vertical-align: -0...."
+[1597788249,683][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND Screenshot {
+
+}
+[1597788249,684][INFO]: Waiting for pending navigations...
+[1597788249,684][INFO]: Done waiting for pending navigations. Status: ok
+[1597788249,960][INFO]: Waiting for pending navigations...
+[1597788249,961][INFO]: Done waiting for pending navigations. Status: ok
+[1597788249,962][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB3gAAAOqCAYAAAB+QYToAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xt0VPW9//8nkkkYZAIkkBiSmqEQbpKYkMrVyuABvCLYuACR8yN8W69LFMTTn3r6PYZe1PYUDxhXtbQ9DL9DFV1GQawXpDIqF5EGIkFugTrxkECQDHEmZEgmy..."
+[1597788250,255][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1597788250,255][INFO]: Waiting for pending navigations...
+[1597788250,255][INFO]: Done waiting for pending navigations. Status: ok
+[1597788250,286][INFO]: Waiting for pending navigations...
+[1597788250,287][INFO]: Done waiting for pending navigations. Status: ok
+[1597788250,288][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Cstyle type=\"text/css\">\n.anticon {\n  display: inline-block;\n  color: inherit;\n  font-style: normal;\n  line-height: 0;\n  text-align: center;\n  text-transform: none;\n  vertical-align: -0...."
+[1597788250,333][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND Screenshot {
+
+}
+[1597788250,333][INFO]: Waiting for pending navigations...
+[1597788250,334][INFO]: Done waiting for pending navigations. Status: ok
+[1597788250,603][INFO]: Waiting for pending navigations...
+[1597788250,604][INFO]: Done waiting for pending navigations. Status: ok
+[1597788250,604][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB3gAAAOqCAYAAAB+QYToAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xt0VPW9//8nkkkYZAIkkBiSmqEQbpKYkMrVyuABvCLYuACR8yN8W69LFMTTn3r6PYZe1PYUDxhXtbQ9DL9DFV1GQawXpDIqF5EGIkFugTrxkECQDHEmZEgmy..."
+[1597788250,692][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] COMMAND Quit {
+
+}
+[1597788250,743][INFO]: [cd0e36ac0554fdcd1fd80ebb7cd0e3e2] RESPONSE Quit

@@ -1,0 +1,653 @@
+[1597788446,720][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 28612
+[1597788446,720][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597788446,900][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597788446315_508042_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597788446315_508042_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597788446,901][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/home/shax/IdeaProjects/selenium/build/downloads/1597788446315_508042_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597788446,901][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597788446,901][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.81ps2T data:,
+[1597788447,388][INFO]: resolved localhost to ["127.0.0.1"]
+[1597788447,400][INFO]: resolved localhost to ["127.0.0.1"]
+[1597788447,411][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/tmp/.com.google.Chrome.81ps2T"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:42163"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "163dab86c3a5136e61cf4d3ed57d0847"
+}
+[1597788447,455][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND SetWindowRect {
+   "height": 1080,
+   "width": 1920
+}
+[1597788447,455][INFO]: Waiting for pending navigations...
+[1597788447,457][INFO]: Done waiting for pending navigations. Status: ok
+[1597788447,559][INFO]: Waiting for pending navigations...
+[1597788447,560][INFO]: Done waiting for pending navigations. Status: ok
+[1597788447,560][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE SetWindowRect {
+   "height": 1010,
+   "width": 1912,
+   "x": 4,
+   "y": 66
+}
+[1597788447,571][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND Navigate {
+   "url": "https://www.open.ru/"
+}
+[1597788447,571][INFO]: Waiting for pending navigations...
+[1597788447,572][INFO]: Done waiting for pending navigations. Status: ok
+[1597788448,849][INFO]: Waiting for pending navigations...
+[1597788451,989][INFO]: Done waiting for pending navigations. Status: ok
+[1597788451,989][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE Navigate
+[1597788452,032][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788452,032][INFO]: Waiting for pending navigations...
+[1597788452,062][INFO]: Done waiting for pending navigations. Status: ok
+[1597788452,078][INFO]: Waiting for pending navigations...
+[1597788452,078][INFO]: Done waiting for pending navigations. Status: ok
+[1597788452,078][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788452,289][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788452,289][INFO]: Waiting for pending navigations...
+[1597788452,292][INFO]: Done waiting for pending navigations. Status: ok
+[1597788452,317][INFO]: Waiting for pending navigations...
+[1597788452,321][INFO]: Done waiting for pending navigations. Status: ok
+[1597788452,321][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788452,527][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788452,532][INFO]: Waiting for pending navigations...
+[1597788452,532][INFO]: Done waiting for pending navigations. Status: ok
+[1597788452,536][INFO]: Waiting for pending navigations...
+[1597788452,537][INFO]: Done waiting for pending navigations. Status: ok
+[1597788452,537][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788452,743][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788452,743][INFO]: Waiting for pending navigations...
+[1597788452,744][INFO]: Done waiting for pending navigations. Status: ok
+[1597788452,753][INFO]: Waiting for pending navigations...
+[1597788452,754][INFO]: Done waiting for pending navigations. Status: ok
+[1597788452,754][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788452,961][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788452,962][INFO]: Waiting for pending navigations...
+[1597788452,964][INFO]: Done waiting for pending navigations. Status: ok
+[1597788452,969][INFO]: Waiting for pending navigations...
+[1597788452,969][INFO]: Done waiting for pending navigations. Status: ok
+[1597788452,969][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788453,173][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788453,173][INFO]: Waiting for pending navigations...
+[1597788453,174][INFO]: Done waiting for pending navigations. Status: ok
+[1597788453,178][INFO]: Waiting for pending navigations...
+[1597788453,178][INFO]: Done waiting for pending navigations. Status: ok
+[1597788453,178][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788453,385][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788453,385][INFO]: Waiting for pending navigations...
+[1597788453,387][INFO]: Done waiting for pending navigations. Status: ok
+[1597788453,396][INFO]: Waiting for pending navigations...
+[1597788453,397][INFO]: Done waiting for pending navigations. Status: ok
+[1597788453,397][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788453,603][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788453,603][INFO]: Waiting for pending navigations...
+[1597788453,604][INFO]: Done waiting for pending navigations. Status: ok
+[1597788453,615][INFO]: Waiting for pending navigations...
+[1597788453,616][INFO]: Done waiting for pending navigations. Status: ok
+[1597788453,616][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788453,821][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788453,822][INFO]: Waiting for pending navigations...
+[1597788453,823][INFO]: Done waiting for pending navigations. Status: ok
+[1597788453,827][INFO]: Waiting for pending navigations...
+[1597788453,827][INFO]: Done waiting for pending navigations. Status: ok
+[1597788453,827][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788454,034][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788454,034][INFO]: Waiting for pending navigations...
+[1597788454,035][INFO]: Done waiting for pending navigations. Status: ok
+[1597788454,045][INFO]: Waiting for pending navigations...
+[1597788454,045][INFO]: Done waiting for pending navigations. Status: ok
+[1597788454,045][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788454,251][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788454,252][INFO]: Waiting for pending navigations...
+[1597788454,252][INFO]: Done waiting for pending navigations. Status: ok
+[1597788454,256][INFO]: Waiting for pending navigations...
+[1597788454,257][INFO]: Done waiting for pending navigations. Status: ok
+[1597788454,257][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788454,461][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788454,461][INFO]: Waiting for pending navigations...
+[1597788454,461][INFO]: Done waiting for pending navigations. Status: ok
+[1597788454,466][INFO]: Waiting for pending navigations...
+[1597788454,467][INFO]: Done waiting for pending navigations. Status: ok
+[1597788454,467][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788454,671][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788454,671][INFO]: Waiting for pending navigations...
+[1597788454,672][INFO]: Done waiting for pending navigations. Status: ok
+[1597788454,676][INFO]: Waiting for pending navigations...
+[1597788454,676][INFO]: Done waiting for pending navigations. Status: ok
+[1597788454,676][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788454,880][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788454,880][INFO]: Waiting for pending navigations...
+[1597788454,881][INFO]: Done waiting for pending navigations. Status: ok
+[1597788454,885][INFO]: Waiting for pending navigations...
+[1597788454,886][INFO]: Done waiting for pending navigations. Status: ok
+[1597788454,886][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788455,089][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788455,089][INFO]: Waiting for pending navigations...
+[1597788455,090][INFO]: Done waiting for pending navigations. Status: ok
+[1597788455,094][INFO]: Waiting for pending navigations...
+[1597788455,094][INFO]: Done waiting for pending navigations. Status: ok
+[1597788455,094][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788455,300][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788455,300][INFO]: Waiting for pending navigations...
+[1597788455,301][INFO]: Done waiting for pending navigations. Status: ok
+[1597788455,305][INFO]: Waiting for pending navigations...
+[1597788455,305][INFO]: Done waiting for pending navigations. Status: ok
+[1597788455,305][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788455,511][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788455,511][INFO]: Waiting for pending navigations...
+[1597788455,512][INFO]: Done waiting for pending navigations. Status: ok
+[1597788455,524][INFO]: Waiting for pending navigations...
+[1597788455,524][INFO]: Done waiting for pending navigations. Status: ok
+[1597788455,524][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788455,731][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788455,731][INFO]: Waiting for pending navigations...
+[1597788455,733][INFO]: Done waiting for pending navigations. Status: ok
+[1597788455,744][INFO]: Waiting for pending navigations...
+[1597788455,745][INFO]: Done waiting for pending navigations. Status: ok
+[1597788455,745][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788455,954][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788455,954][INFO]: Waiting for pending navigations...
+[1597788455,955][INFO]: Done waiting for pending navigations. Status: ok
+[1597788455,959][INFO]: Waiting for pending navigations...
+[1597788455,959][INFO]: Done waiting for pending navigations. Status: ok
+[1597788455,959][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788456,166][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788456,166][INFO]: Waiting for pending navigations...
+[1597788456,167][INFO]: Done waiting for pending navigations. Status: ok
+[1597788456,177][INFO]: Waiting for pending navigations...
+[1597788456,177][INFO]: Done waiting for pending navigations. Status: ok
+[1597788456,177][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788456,383][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788456,383][INFO]: Waiting for pending navigations...
+[1597788456,384][INFO]: Done waiting for pending navigations. Status: ok
+[1597788456,395][INFO]: Waiting for pending navigations...
+[1597788456,396][INFO]: Done waiting for pending navigations. Status: ok
+[1597788456,396][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788456,601][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788456,601][INFO]: Waiting for pending navigations...
+[1597788456,602][INFO]: Done waiting for pending navigations. Status: ok
+[1597788456,607][INFO]: Waiting for pending navigations...
+[1597788456,607][INFO]: Done waiting for pending navigations. Status: ok
+[1597788456,607][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788456,812][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788456,812][INFO]: Waiting for pending navigations...
+[1597788456,816][INFO]: Done waiting for pending navigations. Status: ok
+[1597788456,827][INFO]: Waiting for pending navigations...
+[1597788456,828][INFO]: Done waiting for pending navigations. Status: ok
+[1597788456,828][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788457,033][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788457,033][INFO]: Waiting for pending navigations...
+[1597788457,034][INFO]: Done waiting for pending navigations. Status: ok
+[1597788457,038][INFO]: Waiting for pending navigations...
+[1597788457,039][INFO]: Done waiting for pending navigations. Status: ok
+[1597788457,039][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788457,245][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788457,245][INFO]: Waiting for pending navigations...
+[1597788457,247][INFO]: Done waiting for pending navigations. Status: ok
+[1597788457,258][INFO]: Waiting for pending navigations...
+[1597788457,259][INFO]: Done waiting for pending navigations. Status: ok
+[1597788457,259][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788457,464][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788457,464][INFO]: Waiting for pending navigations...
+[1597788457,464][INFO]: Done waiting for pending navigations. Status: ok
+[1597788457,469][INFO]: Waiting for pending navigations...
+[1597788457,469][INFO]: Done waiting for pending navigations. Status: ok
+[1597788457,469][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788457,674][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788457,674][INFO]: Waiting for pending navigations...
+[1597788457,676][INFO]: Done waiting for pending navigations. Status: ok
+[1597788457,687][INFO]: Waiting for pending navigations...
+[1597788457,688][INFO]: Done waiting for pending navigations. Status: ok
+[1597788457,688][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788457,895][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788457,895][INFO]: Waiting for pending navigations...
+[1597788457,896][INFO]: Done waiting for pending navigations. Status: ok
+[1597788457,907][INFO]: Waiting for pending navigations...
+[1597788457,908][INFO]: Done waiting for pending navigations. Status: ok
+[1597788457,908][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788458,112][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788458,112][INFO]: Waiting for pending navigations...
+[1597788458,113][INFO]: Done waiting for pending navigations. Status: ok
+[1597788458,118][INFO]: Waiting for pending navigations...
+[1597788458,118][INFO]: Done waiting for pending navigations. Status: ok
+[1597788458,118][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788458,323][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788458,323][INFO]: Waiting for pending navigations...
+[1597788458,324][INFO]: Done waiting for pending navigations. Status: ok
+[1597788458,337][INFO]: Waiting for pending navigations...
+[1597788458,337][INFO]: Done waiting for pending navigations. Status: ok
+[1597788458,337][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788458,541][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788458,541][INFO]: Waiting for pending navigations...
+[1597788458,542][INFO]: Done waiting for pending navigations. Status: ok
+[1597788458,548][INFO]: Waiting for pending navigations...
+[1597788458,548][INFO]: Done waiting for pending navigations. Status: ok
+[1597788458,548][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788458,753][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788458,753][INFO]: Waiting for pending navigations...
+[1597788458,753][INFO]: Done waiting for pending navigations. Status: ok
+[1597788458,757][INFO]: Waiting for pending navigations...
+[1597788458,757][INFO]: Done waiting for pending navigations. Status: ok
+[1597788458,757][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788458,964][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788458,964][INFO]: Waiting for pending navigations...
+[1597788458,967][INFO]: Done waiting for pending navigations. Status: ok
+[1597788458,975][INFO]: Waiting for pending navigations...
+[1597788458,975][INFO]: Done waiting for pending navigations. Status: ok
+[1597788458,976][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788459,182][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788459,182][INFO]: Waiting for pending navigations...
+[1597788459,183][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,273][INFO]: Waiting for pending navigations...
+[1597788459,337][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,337][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span"}
+  (Session info: chrome=84.0.4147.125)
+[1597788459,541][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788459,541][INFO]: Waiting for pending navigations...
+[1597788459,542][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,545][INFO]: Waiting for pending navigations...
+[1597788459,546][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,546][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9fa0fa1b-59cd-428c-ab93-2fa4fb62698f"
+}
+[1597788459,550][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "9fa0fa1b-59cd-428c-ab93-2fa4fb62698f",
+      "element-6066-11e4-a52e-4f735466cecf": "9fa0fa1b-59cd-428c-ab93-2fa4fb62698f"
+   } ],
+   "script": "arguments[0].scrollIntoView(true)"
+}
+[1597788459,550][INFO]: Waiting for pending navigations...
+[1597788459,552][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,555][INFO]: Waiting for pending navigations...
+[1597788459,556][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,556][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE ExecuteScript null
+[1597788459,559][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788459,559][INFO]: Waiting for pending navigations...
+[1597788459,560][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,563][INFO]: Waiting for pending navigations...
+[1597788459,596][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,596][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9fa0fa1b-59cd-428c-ab93-2fa4fb62698f"
+}
+[1597788459,650][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "9fa0fa1b-59cd-428c-ab93-2fa4fb62698f"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597788459,650][INFO]: Waiting for pending navigations...
+[1597788459,653][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,664][INFO]: Waiting for pending navigations...
+[1597788459,669][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,669][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE ExecuteScript true
+[1597788459,675][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788459,675][INFO]: Waiting for pending navigations...
+[1597788459,676][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,679][INFO]: Waiting for pending navigations...
+[1597788459,685][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,685][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9fa0fa1b-59cd-428c-ab93-2fa4fb62698f"
+}
+[1597788459,689][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND GetElementTagName {
+   "id": "9fa0fa1b-59cd-428c-ab93-2fa4fb62698f"
+}
+[1597788459,689][INFO]: Waiting for pending navigations...
+[1597788459,690][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,692][INFO]: Waiting for pending navigations...
+[1597788459,694][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,694][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE GetElementTagName "span"
+[1597788459,695][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND GetElementText {
+   "id": "9fa0fa1b-59cd-428c-ab93-2fa4fb62698f"
+}
+[1597788459,695][INFO]: Waiting for pending navigations...
+[1597788459,696][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,710][INFO]: Waiting for pending navigations...
+[1597788459,710][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,710][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE GetElementText "72,74"
+[1597788459,713][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788459,713][INFO]: Waiting for pending navigations...
+[1597788459,718][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,727][INFO]: Waiting for pending navigations...
+[1597788459,727][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,727][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5dfe0539-ac9a-4358-8ba0-044a349f50b8"
+}
+[1597788459,731][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "5dfe0539-ac9a-4358-8ba0-044a349f50b8",
+      "element-6066-11e4-a52e-4f735466cecf": "5dfe0539-ac9a-4358-8ba0-044a349f50b8"
+   } ],
+   "script": "arguments[0].scrollIntoView(true)"
+}
+[1597788459,731][INFO]: Waiting for pending navigations...
+[1597788459,735][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,738][INFO]: Waiting for pending navigations...
+[1597788459,738][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,738][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE ExecuteScript null
+[1597788459,742][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788459,742][INFO]: Waiting for pending navigations...
+[1597788459,742][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,746][INFO]: Waiting for pending navigations...
+[1597788459,754][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,754][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5dfe0539-ac9a-4358-8ba0-044a349f50b8"
+}
+[1597788459,806][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "5dfe0539-ac9a-4358-8ba0-044a349f50b8"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597788459,806][INFO]: Waiting for pending navigations...
+[1597788459,807][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,817][INFO]: Waiting for pending navigations...
+[1597788459,822][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,822][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE ExecuteScript true
+[1597788459,826][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#main > div > div > div:nth-child(7) > section > div > div > div:nth-child(1) > div > div > div > div > div.ant-tabs.ant-tabs-top.main-page-exchange__tabs.ant-tabs-line > div.ant-tabs-content.ant-t..."
+}
+[1597788459,826][INFO]: Waiting for pending navigations...
+[1597788459,827][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,837][INFO]: Waiting for pending navigations...
+[1597788459,838][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,838][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5dfe0539-ac9a-4358-8ba0-044a349f50b8"
+}
+[1597788459,840][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND GetElementTagName {
+   "id": "5dfe0539-ac9a-4358-8ba0-044a349f50b8"
+}
+[1597788459,840][INFO]: Waiting for pending navigations...
+[1597788459,841][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,843][INFO]: Waiting for pending navigations...
+[1597788459,844][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,844][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE GetElementTagName "span"
+[1597788459,845][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND GetElementText {
+   "id": "5dfe0539-ac9a-4358-8ba0-044a349f50b8"
+}
+[1597788459,845][INFO]: Waiting for pending navigations...
+[1597788459,846][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,860][INFO]: Waiting for pending navigations...
+[1597788459,860][INFO]: Done waiting for pending navigations. Status: ok
+[1597788459,860][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE GetElementText "73,49"
+[1597788459,871][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] COMMAND Quit {
+
+}
+[1597788459,921][INFO]: [163dab86c3a5136e61cf4d3ed57d0847] RESPONSE Quit
